@@ -196,7 +196,7 @@ function showPopup(
   `;
 
   popup.style.left = `${event.clientX}px`;
-  popup.style.top = `${event.clientY + 100}px`;
+  popup.style.top = `${event.clientY + 80}px`;
 
   popup.classList.add("show");
 
