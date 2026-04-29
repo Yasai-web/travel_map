@@ -233,7 +233,7 @@ body {
   opacity: 0;
 
   transform:
-    translate(-50%, -80%)
+    translate(-50%, -30%)
     scale(0.9);
 
   transition:
@@ -247,7 +247,7 @@ body {
   opacity: 1;
 
   transform:
-    translate(-50%, -80%)
+    translate(-50%, -30%)
     scale(1);
 }
 
