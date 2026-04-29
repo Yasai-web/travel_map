@@ -103,11 +103,17 @@ function applyColors(svgDoc) {
 
       const el = svgDoc.getElementById(prefecture);
 
-      if (!el) return;
+      if (!el) {
+        console.log(`${prefecture} が見つかりません`);
+        return;
+      }
 
       el.classList.add("prefecture");
 
-      el.style.fill = COLORS[status];
+      el.setAttribute(
+        "fill",
+        COLORS[status]
+      );
     }
   );
 }
